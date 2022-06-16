@@ -5,7 +5,7 @@
   "main": "scripts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d dist"
+    "deploy": "main -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/WendyKKelly/FAC-project-1/issues"
   },
-  "homepage": "https://github.com/WendyKKelly/FAC-project-1#readme"
+  "homepage": "https://github.com/WendyKKelly/FAC-project-1#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }

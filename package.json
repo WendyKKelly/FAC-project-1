@@ -1,0 +1,21 @@
+{
+  "name": "FAC-project-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WendyKKelly/FAC-project-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WendyKKelly/FAC-project-1/issues"
+  },
+  "homepage": "https://github.com/WendyKKelly/FAC-project-1#readme"
+}

@@ -39,8 +39,9 @@
   
   h1 {
     font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
-    font-size: 3em;
+    font-size: 4em;
     margin: 0.67em 0;
+    color: #54b3d6;
   }
   
   /* Grouping content

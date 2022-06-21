@@ -10,7 +10,28 @@
     color: #000;
     background: #fff;
     }
-   
+    .item-a {
+      grid-area: header;
+    }
+    .item-b {
+      grid-area: main;
+    }
+    .item-c {
+      grid-area: sidebar;
+    }
+    .item-d {
+      grid-area: footer;
+    }
+    
+    .container {
+      display: grid;
+      grid-template-columns: 50px 50px 50px 50px;
+      grid-template-rows: auto;
+      grid-template-areas: 
+        "header header header header"
+        "main main . sidebar"
+        "footer footer footer footer";
+    }
   main {
     display: block;
   }
@@ -23,7 +44,8 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
     }
-    h1 { font-size: 2em; }
+    h1 { font-size: 2em; 
+    }
     h2 { font-size: 1.5em; }
     h3 { font-size: 1.2em ; }
     h4 { font-size: 1.0em; }
@@ -62,7 +84,9 @@ a:active { color: #0cf; }
     text-decoration: underline dotted; /* 2 */
   }
   
- 
+ .round {
+  border: 50%;
+ }
   
   b,
   strong {

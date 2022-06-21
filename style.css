@@ -86,9 +86,13 @@ a:active { color: #0cf; }
   
  .round {
   border-radius: 100%;
-  color: #0cf;
+  background-color: #0cf;
   height: 5em;
   width: 5em;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  text-align: center;
  }
   
   b,

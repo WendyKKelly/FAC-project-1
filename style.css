@@ -87,6 +87,8 @@ a:active { color: #0cf; }
  .round {
   border: 50%;
   color: #0cf;
+  height: 5em;
+  width: 5em;
  }
   
   b,

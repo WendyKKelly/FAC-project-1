@@ -55,10 +55,14 @@
   html, body, p, th, td, li, dd, dt  {
     font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
     margin: 0.67em 0;
-    color: #54b3d6;
+    
+  }
+  p {
+    color: #009;
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    color: #54b3d6;
     }
     h1 { font-size: 2em; 
     }

@@ -34,6 +34,7 @@
     }
     .item-c {
       grid-area: sidebar;
+      @media 
     }
     .item-d {
       grid-area: footer;
@@ -42,7 +43,9 @@
     .container {
       display: grid;
       margin-left: 5%;
-      grid-template-columns: 25% 25% 25% 25%;
+      grid-template-columns: repeat(auto-fit,minmax(clamp(100%/(var(--n) + 1) + 0.1%,(var(--w) - 100vw)*1000,100%),1fr)); /*this */
+      gap:10px;
+    }
       grid-template-rows: auto;
       grid-template-areas: 
         "header header header header"

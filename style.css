@@ -17,6 +17,8 @@
     img {
       height: auto;
       max-width: 100%;
+      border-style: none;
+
     }
     
     iframe {
@@ -147,9 +149,6 @@ a:active { color: #0cf; }
   }
   
   
-  img {
-    border-style: none;
-  }
   
 
   

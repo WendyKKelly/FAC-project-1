@@ -13,11 +13,7 @@
       
       width: 88%;
     }
-    .video {
-      @media screen and (max-width: 600px) {
-        display: none;
-      }
-    }
+
     img {
       height: auto;
       max-width: 100%;

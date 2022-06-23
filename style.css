@@ -25,6 +25,7 @@
       height: auto;
       border-bottom: 5rem;
       border-bottom-color: red;
+      display: block;
       @media(max-width: 600px) { 
         display: none;
         

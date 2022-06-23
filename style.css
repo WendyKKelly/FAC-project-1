@@ -21,6 +21,8 @@
 
     }
     .video {
+      width: auto;
+      height: auto;
       border-bottom: 5rem;
       border-bottom-color: red;
       @media (max-width: 600px) { 

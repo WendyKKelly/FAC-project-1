@@ -20,7 +20,14 @@
       border-style: none;
 
     }
-    
+    .video {
+      border-bottom: 2rem;
+      border-color:#0cf;
+      @media screen and (max-width: 600px) { 
+        display: none;
+        
+      }
+    }
     iframe {
       aspect-ratio: 16 / 9;
       height: 100%;

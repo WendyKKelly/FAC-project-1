@@ -10,7 +10,7 @@ var dateTime = date+' and it is '+time + " o'clock";
 document.getElementById("displayDateTime").innerHTML = ' Today is ' + daylist[day] + dateTime;
 
 let videos = document.querySelectorAll('[data-youtube]');
-// Progressively enhance them
+// Progressively enhance them (found this through Go Make Things )
 for (let video of videos) {
     // Get the video ID
 	let id = new URL(video.href).searchParams.get('v');

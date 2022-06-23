@@ -6,6 +6,10 @@
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   }
+  #intro {
+    text-align: center;
+    text-shadow:#54b3d6
+  }
   html, body {
     color: #000;
     background: #fff;
@@ -110,16 +114,7 @@ a:active { color: #0cf; }
     text-decoration: underline dotted; /* 2 */
   }
   
- .round {
-  border-radius: 100%;
-  background-color: #0cf;
-  height: 5em;
-  width: 5em;
-  position: relative;
-  top: 5px;
-  left: 5px;
-  text-align: center;
- }
+ 
   
   b,
   strong {

@@ -22,8 +22,8 @@
     }
     .video {
       border-bottom: 5rem;
-      border-color: red;
-      @media screen and (max-width: 600px) { 
+      border-bottom-color: red;
+      @media (max-width: 600px) { 
         display: none;
         
       }

@@ -23,10 +23,10 @@
     .video {
       width: 100%;
       height: auto;
-      border-bottom: 5rem;
-      border-bottom-color: red;
+      border: 5rem;
+      border-color: red;
       display: block;
-      @media(max-width: 600px) { 
+      @media(max-width: 1000px) { 
         display: none;
         
       }

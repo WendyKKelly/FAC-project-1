@@ -23,13 +23,12 @@
     .video {
       width: 100%;
       height: auto;
-      border: 5rem;
-      border-color: red;
+      color: red;
       display: block;
-      @media(max-width: 1000px) { 
-        display: none;
-        
-      }
+      @media only screen and ( min-width: 480px ) and ( max-width: 767px ) {
+        display: none;/* your css goes here */
+    }
+    
     }
     iframe {
       aspect-ratio: 16 / 9;

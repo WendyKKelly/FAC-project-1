@@ -20,16 +20,6 @@
       border-style: none;
 
     }
-    .video {
-      width: 100%;
-      height: auto;
-      color: red;
-      display: block;
-      @media only screen and ( min-width: 480px ) and ( max-width: 767px ) {
-        display: none;/* your css goes here */
-    }
-    
-    }
     iframe {
       aspect-ratio: 16 / 9;
       height: 100%;
@@ -43,7 +33,10 @@
     }
     .item-c {
       grid-area: sidebar;
-      
+      @media only screen and ( min-width: 480px ) and ( max-width: 767px ) {
+        /* your css goes here */
+    }
+    
     }
     .item-d {
       grid-area: footer;
